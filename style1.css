@@ -1,0 +1,138 @@
+
+body{
+    background-image: url("daimond-cuts1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Poppins";
+}
+.signup-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    width: 350px;
+    max-width: 100%;
+    padding: 25px;
+    border-radius: 5%;
+    box-shadow: 3px 3px 50px black;
+     position: absolute;
+    transition: all 0.5s;
+
+}
+
+/* /////////////////////// */
+
+.head{
+    padding: 0%;
+    margin: 0%;
+
+}
+.head h1{
+    font-size: 25px;
+}
+
+.head span{
+    text-decoration: underline rgb(43, 0, 255);
+}
+
+i{
+    position: absolute;
+    top: 5px;
+    left: 1px;
+    font-weight: 900px;
+    color: blue;
+}
+.form input{
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid blue;
+    width: 90%;
+    padding-left: 25px;
+    padding-bottom: 7px;
+    font-weight: bold;
+}
+::placeholder{
+    opacity: 70%;
+}
+.form input:focus{
+    outline: none;
+    color: blue;
+    margin-bottom: 1px solid blue;
+}
+
+/* ////////////////////// */
+
+.rememberme {
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    font-weight: bold; 
+    font-size: 12px;
+    margin-bottom: 7px;
+    box-sizing: border-box;
+
+}
+
+.rememberme input{
+    position: relative;
+    top: 2px;    
+}
+.rememberme label{
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+}
+
+.rememberme p{
+    color: rgb(45, 45, 254,0.9);
+}
+.rememberme p:hover{
+    cursor: pointer;
+    color: rgb(28, 28, 185);
+}
+
+/* ////////////////////////// */
+
+.submit{
+    text-align: center;
+    background-color: blue;
+    padding: 13px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: "Poppins";
+    color: white;
+    font-weight: bold;
+    font-size: 15px; 
+    transition: all 0.2s ease;
+    width: 100%;
+    border: none;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: rgb(9, 9, 124);
+    transition: all 0.2s ease;
+}
+
+.form{
+    position: relative;
+}
+
+/* /////////////Queries */
+
+
+
+@media(max-width: 1010px){
+    body{
+font-size:80%;
+    }
+}
+@media(max-width: 450px){
+    .signup-container{
+        width: 250px;
+font-size:60%;
+    }
+}
